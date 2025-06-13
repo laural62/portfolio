@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Script&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+body h1, h2{
+    font-family: "Nova Script", system-ui;
+}
+main{
+    background-color: #560B29;
+    font-family: "Overpass", sans-serif;
+}
+/*personnaliation de la nav bar header*/
+.bg-nav{
+    background-color:#D4C2A1;
+}
+/*redimension de l'image logo dans la navbar*/
+.logo{
+    height: 50px;
+    width: 50px;
+}
+header{
+    z-index:999;
+}
+/*personalisation des liens dans tout le html*/
+.link{
+    text-decoration: none;
+    color: black;
+    transition: 0.25s;
+}
+/*forcing programme pour le menu déroulant dans la section etude*/
+.accordion-button{
+    background:#D4C2A1!important;
+    font-weight:900;
+}
+/*redimension des images dans la section loisirs*/
+.img-loisirs{
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+}
+/*css du bouton envoyer dans le form section contact*/
+.btn-envoi{
+    background-color: #D4C2A1;
+    color: black;
+    border-radius: 20px solid;
+    border-color: black;
+}
