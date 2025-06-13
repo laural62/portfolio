@@ -25,6 +25,11 @@ header{
     color: black;
     transition: 0.25s;
 }
+/*background image de fond generé par chatgpt*/
+#section_skills{
+    background-image: url(../image/bg-portfolio.png);
+    background-repeat: no-repeat;
+}
 /*forcing programme pour le menu déroulant dans la section etude*/
 .accordion-button{
     background:#D4C2A1!important;
@@ -43,3 +48,4 @@ header{
     border-radius: 20px solid;
     border-color: black;
 }
+
