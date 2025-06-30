@@ -1,10 +1,10 @@
-<section id="section_contact" class="min-vh-100" action="traitement.php" method="post">
+<section id="section_contact" class="min-vh-100" >
                 <div class="text-white text-center">
                     <h2>Me Contacter ?</h2>
                     <p>Il suffit de remplir ce questionnaire !</p>
                 </div>
 
-                <form id="formportfolio" class="d-flex justify-content-center align-items-center flex-column gap-3">
+                <form id="formportfolio" class="d-flex justify-content-center align-items-center flex-column gap-3" action="traitement.php" method="post">
                     <div class="row container col-md-10">
                         <div class="col">
                             <label for="nom" class="text-white">Nom *</label>
